@@ -1,0 +1,154 @@
+{
+  "hasElement": {
+    "class": "hasElement",
+    "definition": "Verifies whether essential architectural and structural elements such as columns, beams, floors, walls, roofs, ramps, stairs, and railings required for Space Object 'a' are modeled according to RFP specifications"
+  },
+  "hasEquipment": {
+    "class": "hasEquipment",
+    "definition": "Verifies whether MEP equipment, electrical equipment, or medical equipment required for a space (room) is modeled, distinct from major building elements"
+  },
+  "hasSpace": {
+    "class": "hasSpace",
+    "definition": "Verifies the existence of structured spatial sets where overlapping is possible, and departments are composed of hierarchical relationships based on functions"
+  },
+  "getMaterialProperty": {
+    "class": "getMaterialProperty",
+    "definition": "Retrieves material information defined as properties of selected elements (architectural, structural, mechanical, electrical, etc.)"
+  },
+  "isOccupiedBy": {
+    "class": "isOccupiedBy",
+    "definition": "Verifies occupant attribute information for the selected Space Object"
+  },
+  "getFloorArea": {
+    "class": "getFloorArea",
+    "definition": "Function to calculate the reference floor area of a space (room). The floor area of a space object varies by measurement criteria based on purpose: centerline dimension, clear dimension (finished dimension), outer dimension, or reference plane dimension of surrounding walls/columns"
+  },
+  "getParkingLotArea": {
+    "class": "getParkingLotArea",
+    "definition": "Sum of parking-related areas including internal and external parking areas, access roads for parking, and ramps for parking entrance"
+  },
+  "getNumberOfParkingSpace": {
+    "class": "getNumberOfParkingSpace",
+    "definition": "Sum of parking spaces within the building"
+  },
+  "getSiteArea": {
+    "class": "getSiteArea",
+    "definition": "Function to calculate the site area for building construction"
+  },
+  "getLandscapeArea": {
+    "class": "getLandscapeArea",
+    "definition": "Function to calculate the legally required landscape area within the site area"
+  },
+  "getWindowwallRatio": {
+    "class": "getWindowWallRatio",
+    "definition": "Function to calculate the ratio of window area to exterior wall area of a building"
+  },
+  "getElementHeight": {
+    "class": "getElementHeight",
+    "definition": "Function to retrieve the height of an element"
+  },
+  "getEquipmentHeight": {
+    "class": "getEquipmentHeight",
+    "definition": "Function to retrieve the height of mechanical/electrical facilities or equipment"
+  },
+  "getSpaceHeight": {
+    "class": "getSpaceHeight",
+    "definition": "Function to retrieve the height of a space. The internal height of a space object varies by measurement method according to criteria such as floor-to-floor height or ceiling height"
+  },
+  "getElementWidth": {
+    "class": "getElementWidth",
+    "definition": "Function to retrieve the width of an element. Element width measurement varies by element type, location, and trade: centerline dimension, clear dimension (finished dimension), reference plane dimension, nominal dimension, or actual dimension"
+  },
+  "getEquipmentWidth": {
+    "class": "getEquipmentWidth",
+    "definition": "Function to retrieve the width of mechanical/electrical facilities or equipment"
+  },
+  "getSpaceWidth": {
+    "class": "getSpaceWidth",
+    "definition": "Function to retrieve the width within a space. The internal width of a space object varies by measurement method according to criteria: centerline dimension, clear dimension (finished dimension), or outer dimension"
+  },
+  "getNumbrofElement": {
+    "class": "getNumberOfElement",
+    "definition": "Function to retrieve the minimum number of architectural elements required for Space Object 'a'"
+  },
+  "getNumberofEquipment": {
+    "class": "getNumberOfEquipment",
+    "definition": "Function to retrieve the number of equipment or facilities required for Space Object 'a'"
+  },
+  "getNumberofSpace": {
+    "class": "getNumberOfSpace",
+    "definition": "Function to verify the count of spaces with specific names (rooms, zones, etc.) located in the entire BIM model, selected building, space, or floor"
+  },
+  "getStoryofElement": {
+    "class": "getStoryOfElement",
+    "definition": "Function to verify the floor information where the selected element (architectural, structural element) is located"
+  },
+  "getStoryofEquipment": {
+    "class": "getStoryOfEquipment",
+    "definition": "Function to verify the floor information where the selected equipment (mechanical, electrical, medical equipment) is located"
+  },
+  "getStoryofSpace": {
+    "class": "getStoryOfSpace",
+    "definition": "Function to verify the floor information where the selected space (room) is located"
+  },
+  "getStoryofZone": {
+    "class": "getStoryOfZone",
+    "definition": "Function to verify the floor information where the selected zone (area) is located"
+  },
+  "getNumberOfStories": {
+    "class": "getNumberOfStories",
+    "definition": "Function to retrieve the total number of stories in a building"
+  },
+  "isConnectedTo": {
+    "class": "isConnectedTo",
+    "definition": "Function to verify whether elements (architectural, structural, mechanical, electrical, etc.) are directly connected"
+  },
+  "isExternal": {
+    "class": "isExternal",
+    "definition": "Function to verify whether the selected element (architectural, structural, mechanical, electrical, etc.) faces the building exterior"
+  },
+  "getElementDistance": {
+    "class": "getElementDistance",
+    "definition": "Function to calculate the distance between architectural elements. Distance measurement varies by element type, location, and trade: centerline dimension, clear dimension (finished dimension), reference plane dimension, nominal dimension, or actual dimension. Distance types include Euclidean distance and geodesic distance"
+  },
+  "getEquipmentDistance": {
+    "class": "getEquipmentDistance",
+    "definition": "Function to calculate the distance between major equipment or between equipment and equipment"
+  },
+  "getSpaceDistance": {
+    "class": "getSpaceDistance",
+    "definition": "Function to calculate the distance between space objects"
+  },
+  "getMinimumBuildingToBuilDingdistance": {
+    "class": "getMinimumBuildingToBuildingDistance",
+    "definition": "Function to calculate the building-to-building distance (building separation distance)"
+  },
+  "getClearance": {
+    "class": "getClearance",
+    "definition": "Function to retrieve the clearance value between elements and equipment"
+  },
+  "isAccessible": {
+    "class": "isAccessible",
+    "definition": "Function to verify connectivity or mobility from Room 'a' to Room 'b'"
+  },
+  "isAdjacent": {
+    "class": "isAdjacent",
+    "definition": "Function to verify whether Space 'a' and Space 'b' are positionally adjacent"
+  },
+  "isVisibleFrom": {
+    "class": "isVisibleFrom",
+    "definition": "Function to verify whether Space 'b' or activities occurring within it can be observed from Space 'a'"
+  },
+  "checkSetBasedCirculation": {
+    "class": "checkSetBasedCirculation",
+    "definition": "Function to verify whether the main circulation of Space 'a' is not obstructed by the main circulation of Space 'b'"
+  },
+  "isMEPIsolated": {
+    "class": "isMEPIsolated",
+    "definition": "Verifies whether MEP (mechanical, electrical, plumbing) facilities contained in two spaces are separated according to their respective spatial boundaries"
+  },
+  "checkStairsDimensionUniformity": {
+    "class": "checkStairsDimensionUniformity",
+    "definition": "Function to verify whether stair riser and tread dimensions are uniform"
+  }
+}
