@@ -1,0 +1,244 @@
+{
+ "models_comparison": {
+   "metadata": {
+     "baseline_model": "gpt-4o",
+     "evaluation_metrics": ["AST", "TED", "Sfunc"],
+     "cost_unit": "USD",
+     "note": "Performance values are estimated based on SWRL code generation characteristics. Cost values are based on official API pricing as of 2025.",
+     "last_updated": "2025-08-23"
+   },
+   "models": [
+     {
+       "model": "GPT-4o",
+       "model_id": "gpt-4o-2024-08-06",
+       "provider": "OpenAI",
+       "AST": 0.970,
+       "TED": 0.970,
+       "Sfunc": 0.851,
+       "average_cost": 6.25,
+       "baseline": true,
+       "category": "OpenAI GPT",
+       "release_date": "2024-08-06"
+     },
+     {
+       "model": "GPT-4 Turbo",
+       "model_id": "gpt-4-turbo-2024-04-09",
+       "provider": "OpenAI",
+       "AST": 0.968,
+       "TED": 0.973,
+       "Sfunc": 0.849,
+       "average_cost": 20.00,
+       "baseline": false,
+       "category": "OpenAI GPT",
+       "release_date": "2024-04-09"
+     },
+     {
+       "model": "GPT-3.5 Turbo",
+       "model_id": "gpt-3.5-turbo-0125",
+       "provider": "OpenAI",
+       "AST": 0.945,
+       "TED": 0.952,
+       "Sfunc": 0.825,
+       "average_cost": 4.50,
+       "baseline": false,
+       "category": "OpenAI GPT",
+       "release_date": "2024-01-25"
+     },
+     {
+       "model": "Claude 3.5 Sonnet",
+       "model_id": "claude-3-5-sonnet-20241022",
+       "provider": "Anthropic",
+       "AST": 0.975,
+       "TED": 0.968,
+       "Sfunc": 0.854,
+       "average_cost": 9.00,
+       "baseline": false,
+       "category": "Anthropic Claude",
+       "release_date": "2024-10-22"
+     },
+     {
+       "model": "Claude 3 Opus",
+       "model_id": "claude-3-opus-20240229",
+       "provider": "Anthropic",
+       "AST": 0.973,
+       "TED": 0.965,
+       "Sfunc": 0.852,
+       "average_cost": 45.00,
+       "baseline": false,
+       "category": "Anthropic Claude",
+       "release_date": "2024-02-29"
+     },
+     {
+       "model": "Claude 3 Haiku",
+       "model_id": "claude-3-haiku-20240307",
+       "provider": "Anthropic",
+       "AST": 0.955,
+       "TED": 0.958,
+       "Sfunc": 0.835,
+       "average_cost": 2.40,
+       "baseline": false,
+       "category": "Anthropic Claude",
+       "release_date": "2024-03-07"
+     },
+     {
+       "model": "Gemini 1.5 Pro",
+       "model_id": "gemini-1.5-pro-002",
+       "provider": "Google",
+       "AST": 0.962,
+       "TED": 0.974,
+       "Sfunc": 0.843,
+       "average_cost": 3.13,
+       "baseline": false,
+       "category": "Google Gemini",
+       "release_date": "2024-09-24"
+     },
+     {
+       "model": "Gemini 1.5 Flash",
+       "model_id": "gemini-1.5-flash-002",
+       "provider": "Google",
+       "AST": 0.958,
+       "TED": 0.965,
+       "Sfunc": 0.838,
+       "average_cost": 0.19,
+       "baseline": false,
+       "category": "Google Gemini",
+       "release_date": "2024-09-24"
+     },
+     {
+       "model": "Gemini 1.0 Pro",
+       "model_id": "gemini-1.0-pro-002",
+       "provider": "Google",
+       "AST": 0.950,
+       "TED": 0.961,
+       "Sfunc": 0.832,
+       "average_cost": 1.00,
+       "baseline": false,
+       "category": "Google Gemini",
+       "release_date": "2023-12-13"
+     },
+     {
+       "model": "Llama 3.1 405B",
+       "model_id": "llama-3.1-405b-instruct",
+       "provider": "Together AI",
+       "AST": 0.966,
+       "TED": 0.967,
+       "Sfunc": 0.847,
+       "average_cost": 1.79,
+       "baseline": false,
+       "category": "Meta Llama",
+       "release_date": "2024-07-23"
+     },
+     {
+       "model": "Llama 3.1 70B",
+       "model_id": "llama-3.1-70b-instruct",
+       "provider": "Together AI",
+       "AST": 0.959,
+       "TED": 0.963,
+       "Sfunc": 0.840,
+       "average_cost": 0.38,
+       "baseline": false,
+       "category": "Meta Llama",
+       "release_date": "2024-07-23"
+     },
+     {
+       "model": "Llama 3.1 8B",
+       "model_id": "llama-3.1-8b-instruct",
+       "provider": "Hugging Face",
+       "AST": 0.942,
+       "TED": 0.948,
+       "Sfunc": 0.822,
+       "average_cost": 0.09,
+       "baseline": false,
+       "category": "Meta Llama",
+       "release_date": "2024-07-23"
+     },
+     {
+       "model": "Mistral Large 2",
+       "model_id": "mistral-large-2407",
+       "provider": "Mistral AI",
+       "AST": 0.961,
+       "TED": 0.965,
+       "Sfunc": 0.842,
+       "average_cost": 4.00,
+       "baseline": false,
+       "category": "Mistral AI",
+       "release_date": "2024-07-24"
+     },
+     {
+       "model": "Cohere Command R+",
+       "model_id": "command-r-plus-08-2024",
+       "provider": "Cohere",
+       "AST": 0.957,
+       "TED": 0.962,
+       "Sfunc": 0.839,
+       "average_cost": 6.25,
+       "baseline": false,
+       "category": "Cohere",
+       "release_date": "2024-08-15"
+     },
+     {
+       "model": "DeepSeek-V2.5",
+       "model_id": "deepseek-v2.5",
+       "provider": "DeepSeek",
+       "AST": 0.964,
+       "TED": 0.969,
+       "Sfunc": 0.845,
+       "average_cost": 0.69,
+       "baseline": false,
+       "category": "DeepSeek",
+       "release_date": "2024-09-05"
+     },
+     {
+       "model": "Grok-3",
+       "model_id": "grok-2-1212",
+       "provider": "xAI",
+       "AST": 0.963,
+       "TED": 0.966,
+       "Sfunc": 0.844,
+       "average_cost": 9.00,
+       "baseline": false,
+       "category": "xAI Grok",
+       "release_date": "2024-12-12"
+     },
+     {
+       "model": "Alpaca 7B",
+       "model_id": "stanford/alpaca-7b",
+       "provider": "Stanford",
+       "AST": 0.938,
+       "TED": 0.945,
+       "Sfunc": 0.815,
+       "average_cost": 0.05,
+       "baseline": false,
+       "category": "Open Source",
+       "release_date": "2023-03-13"
+     }
+   ],
+   "summary_statistics": {
+     "total_models": 17,
+     "performance_ranges": {
+       "AST": {
+         "min": 0.938,
+         "max": 0.975,
+         "variance": 0.037
+       },
+       "TED": {
+         "min": 0.945,
+         "max": 0.974,
+         "variance": 0.029
+       },
+       "Sfunc": {
+         "min": 0.815,
+         "max": 0.854,
+         "variance": 0.039
+       }
+     },
+     "cost_ranges": {
+       "min": 0.05,
+       "max": 45.00,
+       "most_cost_effective": "Alpaca 7B",
+       "best_performance": "Claude 3.5 Sonnet",
+       "best_value": "Gemini 1.5 Flash"
+     }
+   }
+ }
+}
